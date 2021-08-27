@@ -1,0 +1,26 @@
+<!--监控点开始-->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+    <version>${starter-actuator.version}</version>
+</dependency>
+<dependency>
+    <groupId>io.micrometer</groupId>
+    <artifactId>micrometer-registry-prometheus</artifactId>
+</dependency>
+<dependency>
+    <groupId>io.prometheus</groupId>
+    <artifactId>simpleclient</artifactId>
+    <version>${prometheus-simpleclient.version}</version>
+</dependency>
+<dependency>
+    <groupId>io.prometheus</groupId>
+    <artifactId>simpleclient_spring_boot</artifactId>
+    <version>${prometheus-simpleclient.version}</version>
+</dependency>
+<dependency>
+    <groupId>io.prometheus</groupId>
+    <artifactId>simpleclient_hotspot</artifactId>
+    <version>${prometheus-simpleclient.version}</version>
+</dependency>
+<!--监控点结束-->
